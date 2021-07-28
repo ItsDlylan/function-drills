@@ -33,7 +33,10 @@
 */
 
 //CODE HERE
-
+// let greeting = function (name) {
+// 	console.log(`Hello, ${name}`);
+// };
+// greeting('Dylan')
 ////////////////// PROBLEM 4 ////////////////////
 /*
   Create a function called add that takes in two parameters (both of these will be numbers)
@@ -42,7 +45,11 @@
 */
 
 //CODE HERE
-
+// let add = function (num1, num2) {
+// 	return num1 + num2;
+// };
+// let sum = add(5, 3);
+// console.log(sum);
 ////////////////// PROBLEM 5 ////////////////////
 /*
   Write a function called nameCheck that takes in a name parameter.
