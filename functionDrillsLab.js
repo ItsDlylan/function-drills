@@ -176,15 +176,29 @@ let loser = 'Glimmer';
 */
 
 //CODE HERE
+// let theEliminator = function (contestants, loser) {
+// 	for (let i = 0; i < contestants.length; i++) {
+// 		if (contestants[i] === loser) {
+// 			contestants.splice(i, 1);
+// 		}
+// 	}
+// 	return contestants;
+// };
+
+// console.log(theEliminator(contestants, loser));
 
 ////////////////// PROBLEM 11 ////////////////////
 let sampleString = 'Hi, my name is Kylo.';
 /*
-  Write a function that takes im one argument, a string. The function should then console.log that string, in entirely uppercase characters.
+  Write a function that takes im one argument, a string. The function should then console.log that string, 
+  in entirely uppercase characters.
 */
 
 //CODE HERE
-
+let capsLock = function (str) {
+	console.log(str.toUpperCase());
+};
+capsLock(sampleString);
 ////////////////// PROBLEM 12 ////////////////////
 /*
   Write a function, naming it whatever you believe to be appropriate, that buys as many chocolate frogs as possible with a certain amount of gold. Each chocolate frog costs 3 gold. Your function should take in a single parameter, which is the amount of gold you are willing to spend. Your function should return a total amount of chocolate frogs you were able to purchase.
