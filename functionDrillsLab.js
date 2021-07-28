@@ -60,6 +60,17 @@
 */
 
 //CODE HERE
+// let nameCheck = function (name) {
+// 	if (name === 'Steven') {
+// 		return 'What is up Steven?';
+// 	} else if (name === 'Bryan') {
+// 		return `Hey Bryan!`;
+// 	} else {
+// 		return `Cool name, ${name}`;
+// 	}
+// };
+// let nameGreeting = nameCheck('Steven');
+// console.log(nameGreeting);
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -72,7 +83,19 @@
 */
 
 //CODE HERE
+// let faveColorFinder = function (color) {
+// 	if (color === 'red') {
+// 		return 'red is a great color';
+// 	} else if (color === 'green') {
+// 		return 'green is a solid favoirte color';
+// 	} else if (color === 'black') {
+// 		return 'so trendy';
+// 	} else {
+// 		return 'you need to evaluate your favorite color choice';
+// 	}
+// };
 
+// let colorRating = faveColorFinder('Blue');
 ////////////////// PROBLEM 7 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl'];
 /*
@@ -82,6 +105,14 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl'];
 */
 
 //CODE HERE
+
+let printAllNames = function (arr) {
+	for (let i = 0; i < arr.length; i++) {
+		console.log(arr[i]);
+	}
+};
+
+printAllNames(namesArr);
 
 ////////////////// PROBLEM 8 ////////////////////
 /*
