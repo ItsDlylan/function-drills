@@ -3,7 +3,10 @@
   Create a function called helloWorld which simply console logs 'Hello, World!'
   Call the function.
 */
-
+// function helloWorld() {
+// 	console.log('Hello, World!');
+// }
+// helloWorld();
 //CODE HERE
 
 ////////////////// PROBLEM 2 ////////////////////
@@ -14,6 +17,10 @@
 */
 
 //CODE HERE
+// let printName = function (name) {
+// 	console.log(name);
+// };
+// printName('Dylan');
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
